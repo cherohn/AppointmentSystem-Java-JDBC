@@ -1,29 +1,27 @@
-### IntelliJ IDEA ###
-out/
-!**/src/main/**/out/
-!**/src/test/**/out/
+﻿# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
 
-### Eclipse ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
+# NetBeans
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
+# Maven
+target/
+*.tag
+*.releaseBackup
+*.versionsBackup
 
-### VS Code ###
-.vscode/
+# Compiled
+*.class
+*.jar
+*.war
 
-### Mac OS ###
+# OS
 .DS_Store
+Thumbs.db
